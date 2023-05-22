@@ -1,0 +1,6 @@
+node_modules/
+clientid.json
+.env
+
+uploads/productos/**.*
+uploads/usuarios/**.*

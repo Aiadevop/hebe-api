@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "645f3ebfaafb066077be9a42"
+  },
+  "dia": "Lunes",
+  "desde": "11:30",
+  "hasta": "12:30",
+  "sala": "QUINTELA",
+  "actividadId": {
+    "$oid": "645d09d02abdd115e0f6df73"
+  },
+  "actividadNombre": "PILATES",
+  "precio": 60,
+  "usuarios": [
+    {
+      "_id": {
+        "$oid": "6459000a530fc030caaf0f72"
+      },
+      "nombre": "Almudena Princess González",
+      "dni": "1572368X",
+      "telefono": "600600600",
+      "correo": "almu85pere24@gmail.com",
+      "rol": "ADMIN_ROLE",
+      "estado": true,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "645b20ea0536c5dcb9b2fbda"
+      },
+      "nombre": "Noelia Portela Graña",
+      "dni": "1572368X",
+      "telefono": "600600600",
+      "correo": "lara8alexe24@gmail.com",
+      "rol": "ADMIN_ROLE",
+      "estado": true,
+      "__v": 0
+    }
+  ]
+}]
