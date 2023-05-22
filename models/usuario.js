@@ -4,6 +4,7 @@ const { Schema, model } = require('mongoose');
 const jwt = require('jsonwebtoken');
 const { uid } = require('../helpers/generarJWT');
 
+console.log('test')
 
 const UsuarioSchema = Schema({
 
