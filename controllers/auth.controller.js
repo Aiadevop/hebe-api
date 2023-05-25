@@ -35,7 +35,7 @@ const login = async (req, res = response) => {
                     hasta = horarioAgenda.hasta
                 }
                 const idActividad = horarioAgenda.actividad.toString()
-                console.log("idActividad: " + idActividad)
+
                 let actividad = await Actividad.findById({ "_id": idActividad })
                 if (!actividad) {
                     console.log("la actividad no existe")
