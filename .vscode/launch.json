@@ -1,16 +1,16 @@
 {
     "version": "0.2.0",
     "configurations": [
+        
         {
-            "name": "Launch",
-            "program": "${workspaceFolder}/app.js",
+            "name": "Launch nodemon",
+            "type": "node",
             "request": "launch",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "type": "node"
+            "runtimeExecutable": "nodemon",
+            "program": "${workspaceFolder}/app.js",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
         },
-    
         {
             "name": "Attach",
             "type": "node",
